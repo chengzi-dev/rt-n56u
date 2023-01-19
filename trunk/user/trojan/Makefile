@@ -2,7 +2,7 @@ THISDIR = $(shell pwd)
 SRC_NAME = trojan
 SRC_VERSION := 1.16.0
 SRC_DIR := $(SRC_NAME)-$(SRC_VERSION)
-SRC_URL := https://github.com/trojan-gfw/trojan/archive/v$(SRC_VERSION).tar.gz
+SRC_URL := https://github.com/chengzi-dev/rt-n56u/blob/master/trunk/user/trojan/v$(SRC_VERSION).tar.gz
 CFLAGS := -O3 -ffunction-sections -fdata-sections
 CXXFLAGS += -std=c++11
 CXXFLAGS := $(filter-out -O%,$(CXXFLAGS)) -O3
